@@ -1,0 +1,42 @@
+.player-rate-layout
+{
+    margin: 100px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+
+    img
+    {
+        width: 100%;
+    }
+    .player-rate-text
+    {
+        font-size: 30px;
+    }
+    .player-rate-stars
+    {
+        width: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .player-rate-button
+    {
+        input
+        {
+            border-style: none;
+            font-size: 20px;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            border-radius: 35px;
+            border: 1px solid var(--sec-color);
+            width: 150px;
+            cursor: pointer;
+        }
+        input:hover
+        {
+            background-color: var(--sec-color);
+        }
+    }
+}

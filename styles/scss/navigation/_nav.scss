@@ -1,0 +1,48 @@
+nav
+{
+    padding: 25px;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    column-gap: 150px;
+    align-items: center;
+    height: 10px;
+
+    .hamburger
+    {
+        width: 25px;
+    }
+    .logo
+    {
+        font-size: 25px;
+        font-weight: 1000;
+    }
+    input, input:focus
+    {
+        border: none;
+        outline: none;
+        border-radius: 15px;
+        width: 350px;
+        height: 20px;
+        padding: 3px 0;
+        padding-left: 30px;
+        font-size: 15px;
+    }
+    .search-ico
+    {
+        position: absolute;
+        top: 22px;
+        left: 745px;
+        width: 17px;
+    }
+    .logout-btn
+    {
+        background-color: transparent;
+        color: var(--text-color);
+        padding: 0;
+        margin: 0;
+        width: auto;
+        border-style: none;
+    }
+    
+}

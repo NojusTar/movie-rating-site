@@ -1,0 +1,64 @@
+.table-container
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+    table
+    {
+        tr
+        {
+            text-align: left;
+        }
+        th
+        {
+            border: 1px solid var(--sec-color);
+        }
+        td
+        {
+            height: 150px;
+            border-bottom: 1px solid var(--sec-color);
+            width: 30px;
+            
+            transition: 0.5s;
+        }
+
+        td:hover
+        {
+            background-color: var(--text-color);
+            color: var(--bg-color);
+        }
+
+        .table-image
+        {
+            width: 5vw;
+        }
+        .table-img-td:hover
+        {
+            transform: scale(2);
+        }
+        .table-description
+        {
+            width: 55vw;
+        }
+        .tb-name-div
+        {
+            padding:  0 30px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .tb-desc-div
+        {
+            
+            padding:  30px;
+        }
+        .tb-img-div
+        {
+            width: 100%;
+            img
+            {
+                width: 100%;
+            }
+        }
+    }
+}

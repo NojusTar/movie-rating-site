@@ -1,0 +1,104 @@
+.trailer-show-layout
+{
+    margin-bottom: 15vh;
+}
+
+.main-img
+{
+    width: 800px;
+    height: 670px;
+    overflow: hidden;
+    transition: 0.5s;
+    img
+    {
+        display: block;
+        margin: auto;
+        width: 100%;
+        
+    }
+    
+}
+.main-img:hover
+{
+    transform: scale(1.1);
+    transform: rotate3d(0, 1, 0, 5deg);
+}
+
+.grid
+{
+    display: flex;
+    column-gap: 2vw;
+    height: 670px;
+    
+    main
+    {
+        perspective: 500px;
+        margin-left: 15vw;
+        .hamburger
+        {
+            width: 100%;
+        }
+        .trailer-front
+        {
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+            height: 100px;
+            position: absolute;
+            bottom: 20px;
+            left: 10px;
+            -webkit-text-stroke: 2px black;
+            
+            div
+            {
+                font-weight: 700;
+                font-size: 50px;
+            }
+            img
+            {
+                width: 70px;
+            }
+            .dideles-raides
+            {
+                width: 600px;
+            }
+        }
+        
+    }
+    aside
+    {
+        margin-right: 5vw;
+        border: 1px solid var(--sec-color);
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        transition: 0.3s;
+
+        img
+        {
+            width: 30%;
+        }
+        .aside-card
+        {
+            display: flex;
+            height: 20%;
+            margin-bottom: 10px;
+            border-bottom: 1px solid var(--sec-color);
+            transition: 0.3s;
+        }
+        .aside-card-syps
+        {
+            text-align: center;
+            overflow: hidden;
+        }
+        .aside-card:hover
+        {
+            background-color: var(--text-color);
+            color: var(--bg-color);
+        }
+    }
+    aside::-webkit-scrollbar
+    {
+        display: none;
+    }
+}
